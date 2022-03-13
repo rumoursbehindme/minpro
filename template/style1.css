@@ -1,0 +1,56 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+#header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 80px;
+	background: #e3e6f3;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+#navbar{
+	display: flex;
+	
+
+}
+#navbar li{
+	list-style: none;
+	padding: 15px;
+}
+
+#navbar li a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	transition: 0.3s ease-in;
+	
+}
+#navbar li a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+
+
+
+#shopping{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	width: cover;
+	height: 100vh;
+	background: linear-gradient(to right,lightskyblue,whitesmoke);
+
+}
+#shopping a{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}

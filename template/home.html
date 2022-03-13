@@ -1,0 +1,105 @@
+
+{% load static %}
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Web design</title>
+	<script src="https://kit.fontawesome.com/e383dac722.js" crossorigin="anonymous"></script>
+    <link  href="{% static 'style.css' %}">
+	<style>
+		*{
+	padding: 0;
+	margin: 0;
+
+}
+#header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 80px;
+
+	background:transparent;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+#header a:hover {
+	background-color: black;
+}
+
+
+#navbar{
+	display: flex;
+
+
+}
+#navbar li{
+	list-style: none;
+	padding: 15px;
+}
+
+#navbar li a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	transition: 0.3s ease-in;
+
+}
+#navbar li a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+
+
+
+#shopping{
+	padding: 0;
+	margin: 0;
+	display: flex;
+	width: cover;
+	height: 100vh;
+	background: linear-gradient(to right,lightskyblue,whitesmoke);
+	background-image: url("{% static 'v2.gif' %}");
+	background-repeat:none;
+
+
+
+}
+#shopping a{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+body{
+	background-img:url("{% static 'v2.gif' %}");
+	
+}
+
+	</style>
+</head>
+<body >
+	<section id="header">
+		<a href="vc"><img src="{% static 'logo.png' %}" height="100" width="150" ></a>
+
+		<div>
+			<ul id="navbar">
+				<li><a class="active" href="help">Help</a></li>
+				<li><a href="about">About us</a></li>
+				<li><a href="contact">Contact us</a></li>
+			</ul>
+		</div>
+
+	</section>
+
+	<section id="shopping">
+
+	</section>
+
+<script type="text/javascript" src="script.js">
+
+</script>
+</body>
+</html>
