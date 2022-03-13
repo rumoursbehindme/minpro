@@ -13,7 +13,7 @@ def zoom():
     while True:
         success, img = cap.read()
         hands, img = detector.findHands(img)
-        img1 = cv2.imread("ges\cvarduino.jpg")
+        img1 = cv2.imread("ges\mll.png")
 
         if len(hands) == 2:
             # print(detector.fingersUp(hands[0]), detector.fingersUp(hands[1]))
